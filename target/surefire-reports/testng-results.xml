@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-03-01T23:18:05Z" name="com.mycompany_task1_jar_1.0-SNAPSHOT" finished-at="2021-03-01T23:18:09Z" duration-ms="4231">
+    <groups>
+    </groups>
+    <test started-at="2021-03-01T23:18:05Z" name="All tests for com.mycompany_task1_jar_1.0-SNAPSHOT" finished-at="2021-03-01T23:18:09Z" duration-ms="4231">
+      <class name="GitHubScenarious">
+        <test-method is-config="true" signature="setUpClass()[pri:0, instance:GitHubScenarious@15bfd87]" started-at="2021-03-02T00:18:05Z" name="setUpClass" finished-at="2021-03-02T00:18:06Z" duration-ms="783" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="scenario1_createNewRepository()[pri:0, instance:GitHubScenarious@15bfd87]" started-at="2021-03-02T00:18:06Z" name="scenario1_createNewRepository" description="This scenario is creating a new repository on github using API" finished-at="2021-03-02T00:18:09Z" duration-ms="3020" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- scenario1_createNewRepository -->
+        <test-method signature="scenatio4()[pri:0, instance:GitHubScenarious@15bfd87]" started-at="2021-03-02T00:18:09Z" name="scenatio4" description="This scenario is deleating a repository on github using API" finished-at="2021-03-02T00:18:09Z" duration-ms="421" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- scenatio4 -->
+      </class> <!-- GitHubScenarious -->
+    </test> <!-- All tests for com.mycompany_task1_jar_1.0-SNAPSHOT -->
+  </suite> <!-- com.mycompany_task1_jar_1.0-SNAPSHOT -->
+</testng-results>
